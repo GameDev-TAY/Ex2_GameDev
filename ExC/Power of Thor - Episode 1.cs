@@ -43,11 +43,11 @@ class Player
             }
 
             /**
-            yLight
-            .
-            .
-            .
             yT 
+            .
+            .
+            .
+            yLight
             ---> T need to move North that why we promoted Thor on the y axis
             */
             if (initialTY > lightY)
@@ -56,11 +56,11 @@ class Player
                 initialTY--;
             }
             /**   
-            yT
+            yLight
             .
             .
             . 
-            yLight
+            yT
             ---> T need to move South that why we promoted Thor on the y axis
             */
             else if (initialTY < lightY)
