@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class mover2 : MonoBehaviour
+public class MoverRightPlain : MonoBehaviour
 {
     [SerializeField]
     float speed = 50f;
@@ -16,19 +16,19 @@ public class mover2 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.W))
+        if (Input.GetKey(KeyCode.UpArrow))
         {
             transform.position += new Vector3(0, speed * Time.deltaTime, 0);
         }
-        else if (Input.GetKey(KeyCode.S))
+        else if (Input.GetKey(KeyCode.DownArrow))
         {
             transform.position += new Vector3(0, -speed * Time.deltaTime, 0);
         }
-        else if (Input.GetKey(KeyCode.D))
+        else if (Input.GetKey(KeyCode.RightArrow))
         {
             transform.position += new Vector3(speed * Time.deltaTime, 0, 0);
         }
-        else if (Input.GetKey(KeyCode.A))
+        else if (Input.GetKey(KeyCode.LeftArrow))
         {
             transform.position += new Vector3(-speed * Time.deltaTime, 0, 0);
         }

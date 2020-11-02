@@ -9,6 +9,7 @@ using UnityEngine;
 public class Oscillator : MonoBehaviour
 {
     private Vector3 startPosition;
+    float startX;
 
     [SerializeField]
     float range = 15f;
@@ -20,11 +21,13 @@ public class Oscillator : MonoBehaviour
     void Start()
     {
         startPosition = transform.position; //Get the start position
+        startX = transform.position.x;
     }
 
     // Update is called once per frame
     void Update()
     {
-        transform.position = startPosition + new Vector3(Mathf.Sin((speed / range) * Time.time) * range, 0.0f, 0.0f); //use sin func to change position by given speed and range
+        transform.position.x = startX + Mathf.Sin((speed / range) * Time.time) * range;
+        //transform.position = startPosition + new Vector3(Mathf.Sin((speed / range) * Time.time) * range, 0.0f, 0.0f); //use sin func to change position by given speed and range
     }
 }
