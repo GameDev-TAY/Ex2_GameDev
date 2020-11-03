@@ -152,7 +152,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speedRotate: 180
-  scale: 0.5
+  scale: 0.9
 --- !u!212 &81325711
 SpriteRenderer:
   m_ObjectHideFlags: 0

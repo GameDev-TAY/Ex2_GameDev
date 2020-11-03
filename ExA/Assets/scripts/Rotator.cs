@@ -13,7 +13,7 @@ public class Rotator : MonoBehaviour
 
     [Tooltip("Scale of the object in all axis")]
     [SerializeField]
-    float scale = 0.5f;
+    float scale = 0.9f;
 
     // Update is called once per frame
     void Update()
