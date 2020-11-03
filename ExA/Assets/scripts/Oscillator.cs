@@ -25,7 +25,7 @@ public class Oscillator : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        startPosition = transform.position; //Get the start position
+        startPosition = transform.position; //initiate start position
     }
 
     // Update is called once per frame
