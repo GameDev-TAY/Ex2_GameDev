@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MinimapMaze.unity
+    guid: 7f240cc7f131d38418087e4ee0bd1cba
   m_configObjects: {}
