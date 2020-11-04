@@ -1,4 +1,5 @@
 ![WhatsApp Image 2020-11-04 at 08 44 05](https://user-images.githubusercontent.com/57855070/98078036-f4b04180-1e79-11eb-9bde-48b3d32a201f.jpeg)
+
 This project was done as part of the "Computer Game Development" course at Ariel University.
 You can see the assignment at the following link: 
 https://github.com/gamedev-at-ariel/gamedev-5781/blob/master/02-unity-basics/homework.pdf
