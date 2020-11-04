@@ -18,7 +18,7 @@ You can see a demo on the website: https://gamedev-tay.itch.io/ball-movements
 
 #### ![WhatsApp Image 2020-11-04 at 09 04 57](https://user-images.githubusercontent.com/57855070/98079722-f4657580-1e7c-11eb-8ceb-390bfc60fe92.jpeg)
 
-###  Section Two:
+###  Second section:
 1. We had to build a game where the player can move in a two-dimensional world with the arrow keys, and at the same time he sees his location on a small map (mini-map) on the top right.
 You can see a demo on the website: https://gamedev-tay.itch.io/minimap-maze
 2. "Game" for two players, each player can move one character, and each player sees the world from the point of view of his character, on a half screen
